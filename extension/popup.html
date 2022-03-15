@@ -1,6 +1,5 @@
 <html>
     <head>
-        <script src="tracking.js"></script>
         <style>
             h1{
                 min-height: 5em;
@@ -18,8 +17,11 @@
         </h1>
     </div>
     <div>
-        <button onclick="alertFunction()">
+        
+        <button id="button">
             button
         </button>
     </div>
+    <!--Looks like this has to go at the bottom so the button could be initialized before js ran -->
+    <script src="tracking.js"></script>
 </html>
